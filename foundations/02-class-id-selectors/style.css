@@ -8,6 +8,11 @@
     font-weight: bold;
 }
 
+.odd.adjust-font-size.adjust-bg-color {
+    /* background-color: aqua; */
+    color: chocolate;
+}
+
 #even {
     color: blue;
     font-size: 36px;
