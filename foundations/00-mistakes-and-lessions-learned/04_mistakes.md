@@ -26,6 +26,7 @@
     </div>
 ```
 and 
+
 ```css
 .container .text {
     background-color: yellow;
@@ -45,3 +46,6 @@ is used to select similar class names inside one element in html file, like :
 <div class="class1 class2">
 <div class="class4 class2">
 ```
+# Mistake 2 
+Always trust your gut feeling in case of programming and just shoot your shoot. 
+Try __All__ the possible ways to solve a problem, because you will never know what will happen next. Dont ever fear or regret to break things. even if you break them, you will learn something and this learning is w
