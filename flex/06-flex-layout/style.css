@@ -1,10 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   height: 100vh;
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+}
+
+/* 
+* This whole block is for the header and footer. there are some problems but i will fix them later
+* */
+
+.header,
+.footer {
+  display: flex;
+  /* flex-shrink: 0; */
+  justify-content: space-between;
+  flex-direction: row;
+  /* background-color: red; */
+  /* max-width: 100%; */
+  min-width: 100vw;
+}
+
+.footer {
+  background-color: #eeeeee;
+  margin-top: auto;
+}
+
+.header {
+  margin-bottom: auto;
+}
+
+ul.left-links,
+ul.right-links {
+  display: flex;
+  padding: 16px;
+  gap: 16px;
+}
+
+ul,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: grey;
+}
+
+/* 
+* This part is for the middle content 
+*/
+
+.content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.buttons button {
+  color: black;
+  /* margin-top: 12px; */
+  /* padding: 8px; */
+  padding: 8px 24px;
 }
 
 img {
